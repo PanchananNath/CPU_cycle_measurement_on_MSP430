@@ -559,7 +559,7 @@ for cycle-analysis experiments.
 
 ---
 
-# 17. Research Importance of This Experiment
+# 17. Why This Experiment ?
 
 This experiment establishes:
 
@@ -579,23 +579,6 @@ This becomes the foundation for:
 * LLVM instrumentation
 * checkpoint placement
 * task-based execution
-
----
-
-# 18. Next Planned Steps
-
-Future experiments will include:
-
-1. Exact MSP430 instruction-level cycle analysis
-2. Assembly inspection
-3. Static cycle estimation
-4. LLVM IR generation
-5. Basic-block cycle counting
-6. Energy estimation
-7. GPIO timing measurement
-8. Intermittent execution experiments
-9. FRAM checkpointing
-10. Recovery runtime implementation
 
 ---
 
@@ -659,21 +642,5 @@ Debugger stepping or optimization.
 
 ---
 
-# 20. Summary
 
-This experiment successfully demonstrates:
-
-1. MSP430 executable generation
-2. Function-level cycle counting
-3. Whole-program cycle counting
-4. CCS debugging workflow
-5. Runtime observation techniques
-6. Foundation for intermittent computing research
-
-The next step will focus on:
-
-* exact instruction cycle analysis
-* assembly-level timing
-* LLVM-based analysis
-* energy estimation infrastructure
 
